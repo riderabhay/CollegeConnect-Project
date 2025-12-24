@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ✅ GLOBAL RESET: Scroll Unlock */
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  overflow-x: hidden; /* Left-Right band */
+  overflow-y: auto;   /* Upar-Niche CHALU ✅ */
+  background-color: black;
+  color: white;
+}
+
+/* Custom Scrollbar (Optional: Sundar dikhne ke liye) */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #111;
+}
+::-webkit-scrollbar-thumb {
+  background: #06b6d4; /* Cyan color */
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #0891b2;
+}
